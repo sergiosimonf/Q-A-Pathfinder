@@ -13,7 +13,7 @@ import uuid  # Importamos para generar claves únicas
 SUBSCRIPTION_KEY = 'Ctq9YrNAoLPj1QnunemGX6Gm0dWnAfn44NR5oSaM1skVuIWgfJyzJQQJ99BBACYeBjFXJ3w3AAAaACOGjIJU'
 
 BASE_URL = "https://tradicionalia.cognitiveservices.azure.com/language/:query-knowledgebases"
-PROJECT_NAME = "PathfinderFaQ"
+PROJECT_NAME = "PathfinderFaq"
 API_VERSION = "2021-10-01"
 DEPLOYMENT_NAME = "production"
 
