@@ -9,13 +9,11 @@ import uuid  # Importamos para generar claves únicas
 # Constantes y configuración
 # ===============================
 
-# Es recomendable almacenar la clave en una variable de entorno.
-SUBSCRIPTION_KEY = 'Ctq9YrNAoLPj1QnunemGX6Gm0dWnAfn44NR5oSaM1skVuIWgfJyzJQQJ99BBACYeBjFXJ3w3AAAaACOGjIJU'
-
-BASE_URL = "https://tradicionalia.cognitiveservices.azure.com/language/:query-knowledgebases"
-PROJECT_NAME = "PathfinderFaq"
-API_VERSION = "2021-10-01"
-DEPLOYMENT_NAME = "production"
+SUBSCRIPTION_KEY = st.secrets["SUBSCRIPTION_KEY"]
+BASE_URL = st.secrets["BASE_URL"]
+PROJECT_NAME = st.secrets["PROJECT_NAME"]
+API_VERSION = st.secrets["API_VERSION"]
+DEPLOYMENT_NAME = st.secrets["DEPLOYMENT_NAME"]
 
 HEADERS = {
     "Ocp-Apim-Subscription-Key": SUBSCRIPTION_KEY,
